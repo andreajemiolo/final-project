@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <%= "You're feeling #{@emotion}." %>
+    
+    <% if @emotion == "destructive" %>
+    <br>
+    <%= "Here's a site to get all of your destructive energy out" %>
+    <br>
+    <a href="https://play.google.com/store/apps/details?id=com.psychicsoftware.letsbreakstuff&hl=en">break stuff </a>
+    
+    <% elsif @emotion == "procrastinatory" %>
+    <br>
+    <%= "Here's a site to make you productive" %>
+    <br>
+    <a href="http://selfcontrolapp.com/">Turn off addicting websites (mac only) </a>
+    
+    <% elsif @emotion == "tense" %>
+    <br>
+    <%= "Here are some sites to make you relaxed" %>
+    <br>
+    <a href="http://www.rainymood.com/">listen to rain sounds </a>
+    <br>
+    <a href="http://www.calm.com/"> have a guided relaxation </a>
+    <br>
+    <a href="http://www.calmsound.com/"> listen to nature sounds </a>
+    <br>
+    <a href="https://coffitivity.com/"> listen to ambient coffee shop noises </a>
+    
+    <% elsif @emotion == "disgruntled" %>
+    <br>
+    <%= "Here's a site to make you un-disgruntled" %>
+    <br>
+    <a href="http://gruntle.me/">un-disgruntle yourself </a>
+    
+    <% elsif @emotion == "helpful" %>
+    <br>
+    <%= "Here's a site to use your helpfulness" %>
+    <br>
+    <a href="http://thequietplaceproject.com/thedreamsroom/comfortspot">comfort someone </a>
+    
+    <% elsif @emotion == "bored" %>
+    <br>
+    <%= "Here are some sites to relieve you of your avid boredom" %>
+    
+    <% elsif @emotion == "artsy" %>
+    <br>
+    <%= "Here are some sites to make you the next Leonardo Da Vinci!" %>
+    <br>
+    <a href="http://weavesilk.com/" >make cool symmetrical designs </a>
+    <br>
+    <a href="http://thisissand.com/" >make cool sand art </a>
+    
+    <% elsif @emotion == "musical" %>
+    <br>
+    <%= "Here are some sites to make you the next Mozart!" %>
+    
+    <% elsif @emotion == "troubled/stressed" %>
+    <br>
+    <%= "Here are some sites to let you vent and make your life carefree!" %>
+    <br>
+    <a href="http://thequietplaceproject.com/">go to your quiet place </a>
+    
+    <% elsif @emotion == "lonely" %>
+    <br>
+    <%= "Here are some sites to make you feel loved and popular!" %>
+    
+    <% elsif @emotion == "hungry" %>
+    <br>
+    <%= "Here are some sites to give you a party in your tummy!!!" %>
+    
+    <% elsif @emotion == "fat" %>
+    <br>
+    <%= "Here are some sites to get your beach bod ready!" %>
+    
+    <% elsif @emotion == "crafty" %>
+    <br>
+    <%= "Here are some sites to make you the next Martha Stewart!! (minus the jail part)" %>
+    
+    <% else %>
+    <%="Please go back and enter an emotion"%>
+    <%end%>
+  
+  </body>
+  </html>
+
+
