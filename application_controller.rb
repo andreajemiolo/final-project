@@ -14,6 +14,7 @@ class MyApp < Sinatra::Base
   
   post '/results' do
     @emotion = params[:emotion]
+    puts @emotion
     erb :results
   end
 

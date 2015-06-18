@@ -1,0 +1,35 @@
+body {
+
+
+  
+font-family:Impact, Charcoal, sans-serif;
+
+text-align: center;
+  
+  font-size: 200%;
+  
+ 
+}
+
+h1 {
+  font-size: 250%;
+}
+
+#resultpadding {
+  padding: 25px 50px 25px 50px;
+}
+
+#bg {
+  background-image:url("http://data3.whicdn.com/images/45623786/large.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+/*    width:800px;
+  height:600px; */
+}
+
+#bored {
+  background-color: red;
+}
+
