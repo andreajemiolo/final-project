@@ -4,17 +4,9 @@ background-image:url("http://data3.whicdn.com/images/45623786/large.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- width:800px;
-height:600px;
-
-  
 font-family:Impact, Charcoal, sans-serif;
-
 text-align: center;
-  
-  font-size: 200%;
-  
- 
+font-size: 200%;
 }
 
 h1 {
@@ -23,6 +15,10 @@ h1 {
 
 #resultpadding {
   padding: 25px 50px 25px 50px;
+}
+
+#forms {
+  text-align: center;
 }
 
 
